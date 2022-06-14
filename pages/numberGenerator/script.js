@@ -1,6 +1,6 @@
 function calculate() {
-    min = document.getElementById("min").value;
-    max = document.getElementById("max").value;
+    min = parseInt(document.getElementById("min").value);
+    max = parseInt(document.getElementById("max").value);
     if (min == "" || max == "") {
         alert("Entrez un nombre");
     }
